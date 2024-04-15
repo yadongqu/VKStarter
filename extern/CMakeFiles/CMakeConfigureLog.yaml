@@ -1,0 +1,455 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/eddy/scoop/apps/llvm/current/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/eddy/Projects/flow/extern/CMakeFiles/3.29.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/eddy/scoop/apps/llvm/current/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/eddy/Projects/flow/extern/CMakeFiles/3.29.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-5vs3op"
+      binary: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-5vs3op"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/eddy/scoop/apps/llvm/current/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-5vs3op'
+        
+        Run Build Command(s): C:/Users/eddy/scoop/shims/ninja.exe -v cmTC_fb22f
+        [1/2] C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_fb22f.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_fb22f.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_fb22f.dir/CMakeCCompilerABI.c.obj -c C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v  -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_fb22f.dir/CMakeCCompilerABI.c.obj -o cmTC_fb22f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_fb22f.lib -Xlinker /pdb:cmTC_fb22f.pdb -Xlinker /version:0.0     && cd ."
+        clang version 18.1.3
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin
+         "C:\\\\Users\\\\eddy\\\\scoop\\\\apps\\\\llvm\\\\current\\\\bin\\\\lld-link" -out:cmTC_fb22f.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.39.33519\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.39.33519\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Users\\\\eddy\\\\scoop\\\\apps\\\\llvm\\\\18.1.3\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_fb22f.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_fb22f.lib /pdb:cmTC_fb22f.pdb /version:0.0\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Users/eddy/scoop/apps/llvm/current/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Users/eddy/scoop/apps/llvm/current/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Users/eddy/scoop/apps/llvm/current/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Users/eddy/scoop/apps/llvm/current/bin/lld-link" "--version"
+      LLD 18.1.3
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-5owtei"
+      binary: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-5owtei"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/eddy/scoop/apps/llvm/current/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-5owtei'
+        
+        Run Build Command(s): C:/Users/eddy/scoop/shims/ninja.exe -v cmTC_49d7f
+        [1/2] C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_49d7f.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_49d7f.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_49d7f.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v  -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_49d7f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_49d7f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_49d7f.lib -Xlinker /pdb:cmTC_49d7f.pdb -Xlinker /version:0.0     && cd ."
+        clang version 18.1.3
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin
+         "C:\\\\Users\\\\eddy\\\\scoop\\\\apps\\\\llvm\\\\current\\\\bin\\\\lld-link" -out:cmTC_49d7f.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.39.33519\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.39.33519\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Users\\\\eddy\\\\scoop\\\\apps\\\\llvm\\\\18.1.3\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_49d7f.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_49d7f.lib /pdb:cmTC_49d7f.pdb /version:0.0\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Users/eddy/scoop/apps/llvm/current/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/eddy/scoop/apps/llvm/current/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/eddy/scoop/apps/llvm/current/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/eddy/scoop/apps/llvm/current/bin/lld-link" "--version"
+      LLD 18.1.3
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-51kfwz"
+      binary: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-51kfwz"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/eddy/scoop/apps/llvm/current/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-51kfwz'
+        
+        Run Build Command(s): C:/Users/eddy/scoop/shims/ninja.exe -v cmTC_d0266
+        [1/2] C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_d0266.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_d0266.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_d0266.dir/feature_tests.cxx.obj -c C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-51kfwz/feature_tests.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_d0266.dir/feature_tests.cxx.obj -o cmTC_d0266.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d0266.lib -Xlinker /pdb:cmTC_d0266.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-mav1yk"
+      binary: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-mav1yk"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/eddy/scoop/apps/llvm/current/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-mav1yk'
+        
+        Run Build Command(s): C:/Users/eddy/scoop/shims/ninja.exe -v cmTC_d5b8d
+        [1/2] C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_d5b8d.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_d5b8d.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_d5b8d.dir/feature_tests.cxx.obj -c C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-mav1yk/feature_tests.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_d5b8d.dir/feature_tests.cxx.obj -o cmTC_d5b8d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d5b8d.lib -Xlinker /pdb:cmTC_d5b8d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "extern/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-t5m7t7"
+      binary: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-t5m7t7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/eddy/scoop/apps/llvm/current/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/eddy/Projects/flow/extern/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-t5m7t7'
+        
+        Run Build Command(s): C:/Users/eddy/scoop/shims/ninja.exe -v cmTC_fd5c5
+        [1/2] C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_fd5c5.dir/src.c.obj -MF CMakeFiles\\cmTC_fd5c5.dir\\src.c.obj.d -o CMakeFiles/cmTC_fd5c5.dir/src.c.obj -c C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-t5m7t7/src.c
+        FAILED: CMakeFiles/cmTC_fd5c5.dir/src.c.obj 
+        C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_fd5c5.dir/src.c.obj -MF CMakeFiles\\cmTC_fd5c5.dir\\src.c.obj.d -o CMakeFiles/cmTC_fd5c5.dir/src.c.obj -c C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-t5m7t7/src.c
+        C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-t5m7t7/src.c:1:10: fatal error: 'pthread.h' file not found\x0d
+            1 | #include <pthread.h>\x0d
+              |          ^~~~~~~~~~~\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "extern/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-bapku4"
+      binary: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-bapku4"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/eddy/scoop/apps/llvm/current/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/eddy/Projects/flow/extern/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-bapku4'
+        
+        Run Build Command(s): C:/Users/eddy/scoop/shims/ninja.exe -v cmTC_97bf7
+        [1/2] C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_97bf7.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_97bf7.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_97bf7.dir/CheckFunctionExists.c.obj -c C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-bapku4/CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_97bf7.dir/CheckFunctionExists.c.obj -o cmTC_97bf7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_97bf7.lib -Xlinker /pdb:cmTC_97bf7.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_97bf7.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_97bf7.dir/CheckFunctionExists.c.obj -o cmTC_97bf7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_97bf7.lib -Xlinker /pdb:cmTC_97bf7.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'pthreads.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "extern/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-tra7zn"
+      binary: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-tra7zn"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/eddy/scoop/apps/llvm/current/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/eddy/Projects/flow/extern/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-tra7zn'
+        
+        Run Build Command(s): C:/Users/eddy/scoop/shims/ninja.exe -v cmTC_1e7c7
+        [1/2] C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_1e7c7.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_1e7c7.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_1e7c7.dir/CheckFunctionExists.c.obj -c C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-tra7zn/CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_1e7c7.dir/CheckFunctionExists.c.obj -o cmTC_1e7c7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1e7c7.lib -Xlinker /pdb:cmTC_1e7c7.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_1e7c7.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_1e7c7.dir/CheckFunctionExists.c.obj -o cmTC_1e7c7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1e7c7.lib -Xlinker /pdb:cmTC_1e7c7.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'pthread.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/FindThreads.cmake:136 (try_compile)"
+      - "C:/Users/eddy/scoop/apps/cmake/3.29.2/share/cmake-3.29/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
+      - "extern/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-i4dmei"
+      binary: "C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-i4dmei"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/eddy/scoop/apps/llvm/current/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/eddy/Projects/flow/extern/glfw/CMake/modules"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-i4dmei'
+        
+        Run Build Command(s): C:/Users/eddy/scoop/shims/ninja.exe -v cmTC_0b6b1
+        [1/2] C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0b6b1.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_0b6b1.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_0b6b1.dir/CheckForPthreads.c.obj -c C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-i4dmei/CheckForPthreads.c
+        FAILED: CMakeFiles/cmTC_0b6b1.dir/CheckForPthreads.c.obj 
+        C:\\Users\\eddy\\scoop\\apps\\llvm\\current\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0b6b1.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_0b6b1.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_0b6b1.dir/CheckForPthreads.c.obj -c C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-i4dmei/CheckForPthreads.c
+        C:/Users/eddy/Projects/flow/extern/CMakeFiles/CMakeScratch/TryCompile-i4dmei/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found\x0d
+            1 | #include <pthread.h>\x0d
+              |          ^~~~~~~~~~~\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
